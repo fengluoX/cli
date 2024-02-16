@@ -1,0 +1,24 @@
+{
+  "name": "@fengluo/cli",
+  "version": "0.0.0",
+  "description": "",
+  "bin": {
+    "cli-create": "./src/index.js"
+  },
+  "files": [
+    "index.js",
+    "template/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/prompts": "^2.4.9",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "prompts": "^2.4.2"
+  }
+}
